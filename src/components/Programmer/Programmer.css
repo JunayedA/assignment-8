@@ -1,0 +1,22 @@
+.programmer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.programmer-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.programmer-info img {
+  width: 300px;
+}
+
+.programmer-info button {
+  background-color: #0275d8;
+  width: 150px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
